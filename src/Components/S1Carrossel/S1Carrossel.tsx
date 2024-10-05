@@ -1,39 +1,39 @@
-"use client"
+"use client";
 
 import React from 'react';
 import Carousel from 'react-material-ui-carousel';
-import { Paper, Button } from '@mui/material';
+import { Paper } from '@mui/material';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const items = [
   {
-    name: "Item 1",
-    description: "Descrição do Item 1",
-    img: "https://via.placeholder.com/800x300?text=Item+1",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite.png",
   },
   {
-    name: "Item 2",
-    description: "Descrição do Item 2",
-    img: "https://via.placeholder.com/800x300?text=Item+2",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite.png",
   },
   {
-    name: "Item 3",
-    description: "Descrição do Item 3",
-    img: "https://via.placeholder.com/800x300?text=Item+3",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite.png",
   },
 ];
 
-export default function S1Carrossel(){
+export default function S1Carrossel() {
   return (
-    <Carousel>
+    <Carousel
+      className='flex flex-col justify-center mx-32 my-20'
+      // Ícone para avançar
+      NextIcon={<ArrowForwardIosIcon />}
+      // Ícone para voltar
+      PrevIcon={<ArrowBackIosIcon />}
+      // Mostra as setas sempre
+      navButtonsAlwaysVisible={false}
+    >
       {items.map((item, i) => (
         <Paper key={i}>
-          <img src={item.img} alt={item.name} style={{ width: '100%', height: 'auto' }} />
-          <h2>{item.name}</h2>
-          <p>{item.description}</p>
-          <Button>Saiba Mais</Button>
+          <img src={item.img} alt='Banner' style={{ width: '100%', height: 'auto' }} />
         </Paper>
       ))}
     </Carousel>
   );
 };
-

@@ -1,14 +1,7 @@
-import Image from "next/image";
-
 export default function HeaderComponent() {
   return (
     <main className="flex justify-between align-middle items-center p-4 px-8 shadow-md">
-      <Image
-        src="/Assets/Imgs/Header/logoSemNome.png"
-        alt="UNIR logomark"
-        width={100}
-        height={50}
-      />
+      <img className="w-24" src="/Assets/Imgs/Header/logoSemNome.png" alt="Logo" />
 
       <ul className="flex justify-center items-center gap-20 text-[#0C2548] font-semibold">
         <li className="group relative">

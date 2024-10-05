@@ -1,6 +1,7 @@
 //components
 import HeaderComponent from "@/Components/HeaderComponent/HeaderComponent";
 import S1Carrossel from "@/Components/S1Carrossel/S1Carrossel";
+import S2Sobre from "@/Components/S2Sobre/S2Sobre";
 
 export default function home() {
   return (
@@ -8,6 +9,7 @@ export default function home() {
       <div>
         <HeaderComponent />
         <S1Carrossel />
+        <S2Sobre />
       </div>
     </main>
   );
