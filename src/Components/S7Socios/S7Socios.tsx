@@ -13,7 +13,6 @@ export default function S7Socios() {
 
       <div className="flex flex-col justify-center items-center gap-2">
         <img
-          className="flex flex-col justify-center"
           className="w-52"
           src="/Assets/Imgs/S7Socios/samuel.png"
           alt="Logo"
