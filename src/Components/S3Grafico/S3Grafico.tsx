@@ -1,36 +1,53 @@
-"use cliente"
-import React from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { Box, Typography } from '@mui/material';
+"use client"
 
-const data = [
-  { month: 'Jan', withSite: 5000, withoutSite: 2000 },
-  { month: 'Feb', withSite: 6000, withoutSite: 2200 },
-  { month: 'Mar', withSite: 7500, withoutSite: 2400 },
-  { month: 'Apr', withSite: 9000, withoutSite: 2600 },
-  { month: 'May', withSite: 11000, withoutSite: 2800 },
-  { month: 'Jun', withSite: 13000, withoutSite: 3000 },
-  { month: 'Jul', withSite: 15000, withoutSite: 3200 },
-];
+// src/Components/S3Grafico/S3Grafico.jsx
+import React from "react";
+import { Bar } from "react-chartjs-2";
+import { Paper } from "@mui/material";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
 
-function GainsChartStacked() {
+// Registrar as escalas e componentes necessários
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+
+// Dados fictícios de vendas
+const data = {
+  labels: ["Empresas com Site", "Empresas sem Site"],
+  datasets: [
+    {
+      label: "Vendas",
+      data: [4000, 2400],
+      backgroundColor: ["rgba(75, 192, 192, 0.6)", "rgba(255, 99, 132, 0.6)"],
+      borderColor: ["rgba(75, 192, 192, 1)", "rgba(255, 99, 132, 1)"],
+      borderWidth: 1,
+    },
+  ],
+};
+
+// Opções do gráfico
+const options = {
+  responsive: true,
+  scales: {
+    y: {
+      beginAtZero: true,
+    },
+  },
+};
+
+export default function S3Grafico() {
   return (
-    <Box sx={{ padding: '20px', backgroundColor: '#f5f5f5', borderRadius: '8px' }}>
-      <Typography variant="h5" align="center" gutterBottom>
-        Comparação de Ganhos com e sem um Site
-      </Typography>
-      <ResponsiveContainer width="100%" height={400}>
-        <BarChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="month" />
-          <YAxis />
-          <Tooltip />
-          <Bar dataKey="withoutSite" stackId="a" fill="#82ca9d" name="Sem Site" />
-          <Bar dataKey="withSite" stackId="a" fill="#8884d8" name="Com Site" />
-        </BarChart>
-      </ResponsiveContainer>
-    </Box>
+    <div>
+      <Paper elevation={3} style={{ padding: "20px", margin: "20px" }}>
+        <h2>Vendas por Tipo de Empresa</h2>
+        <Bar data={data} options={options} />
+      </Paper>
+    </div>
   );
 }
-
-export default GainsChartStacked;
