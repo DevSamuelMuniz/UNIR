@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 // src/Components/S3Grafico/S3Grafico.jsx
 import React from "react";
@@ -15,7 +15,14 @@ import {
 } from "chart.js";
 
 // Registrar as escalas e componentes necessários
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 // Dados fictícios de vendas
 const data = {
@@ -24,8 +31,8 @@ const data = {
     {
       label: "Vendas",
       data: [4000, 2400],
-      backgroundColor: ["rgba(75, 192, 192, 0.6)", "rgba(255, 99, 132, 0.6)"],
-      borderColor: ["rgba(75, 192, 192, 1)", "rgba(255, 99, 132, 1)"],
+      backgroundColor: ["#288226", "#CE2A2A"], 
+      borderColor: ["#288226", "#CE2A2A"], 
       borderWidth: 1,
     },
   ],
@@ -43,11 +50,26 @@ const options = {
 
 export default function S3Grafico() {
   return (
-    <div>
-      <Paper elevation={3} style={{ padding: "20px", margin: "20px" }}>
-        <h2>Vendas por Tipo de Empresa</h2>
-        <Bar data={data} options={options} />
-      </Paper>
-    </div>
+    <main className="flex justify-evenly">
+      <div>
+        <Paper elevation={3} style={{ padding: "20px", margin: "20px" }}>
+          <h2>Vendas por Tipo de Empresa</h2>
+          <div style={{ width: "600px", height: "300px" }}>
+            <Bar data={data} options={options} />
+          </div>
+        </Paper>
+      </div>
+
+      <div className="flex flex-col gap-16 text-center justify-center">
+        <span >
+          <h1 className="text-6xl text-[#15407D] font-bold">
+            AUMENTE SEUS <span className="text-[#288226]">GANHOS</span>
+          </h1>
+          <h2 className="text-2xl text-[#15407D] font-bold">REDUZA SEU TRABALHO!</h2>
+        </span>
+
+        <p className="text-3xl text-[#15407D] font-bold">COM SOLUÇÕES INTELIGÊNTES</p>
+      </div>
+    </main>
   );
 }
