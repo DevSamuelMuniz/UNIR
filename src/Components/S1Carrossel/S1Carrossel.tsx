@@ -28,7 +28,7 @@ export default function S1Carrossel() {
   return (
     <Carousel
       className="flex flex-col justify-center mx-72 my-20"
-      // Ícone para avançar
+      // Ícone para avançar 
       NextIcon={<ArrowForwardIosIcon />}
       // Ícone para voltar
       PrevIcon={<ArrowBackIosIcon />}
