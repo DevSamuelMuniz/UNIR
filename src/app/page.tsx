@@ -7,7 +7,7 @@ import S3Grafico from "@/Components/S3Grafico/S3Grafico";
 import S4NossosServicos from "@/Components/S4NossosServicos/S4NossosServicos";
 import S5Branco from "@/Components/S5Branco/S5Branco";
 import S6Contatos from "@/Components/S6Contatos/S6Contatos";
-import S7Branco from "@/Components/S7Branco/S7Branco";
+import S7Socios from "@/Components/S7Socios/S7Socios";
 import FooterComponent from "@/Components/FooterComponent/FooterComponent";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
       <S4NossosServicos />
       <S5Branco />
       <S6Contatos />
-      <S7Branco />
+      <S7Socios />
       <FooterComponent />
     </main>
   );
