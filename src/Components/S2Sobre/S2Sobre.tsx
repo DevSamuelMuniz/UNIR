@@ -14,7 +14,8 @@ export default function S2Sobre() {
           Bíblia Cristã, nossa ética e valores colocam Jesus no centro de todos
           os nossos sonhos e projetos.
         </p>
-<button className="border-2 border-[#4C81CD] bg-white text-[#0C2548] text-lg font-semibold p-2 hover:text-white hover:bg-[#4C81CD] transition-colors" >          SAIBA MAIS
+        <button className="border-2 border-[#4C81CD] bg-white text-[#0C2548] text-lg font-semibold p-2 hover:text-white hover:bg-[#4C81CD] transition-colors">
+          SAIBA MAIS
         </button>
       </div>
     </main>

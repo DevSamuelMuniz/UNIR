@@ -8,20 +8,26 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const items = [
   {
-    img: "/Assets/Imgs/S1Carrossel/bannerSite.png",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite1.png",
   },
   {
-    img: "/Assets/Imgs/S1Carrossel/bannerSite.png",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite2.png",
   },
   {
-    img: "/Assets/Imgs/S1Carrossel/bannerSite.png",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite3.png",
+  },
+  {
+    img: "/Assets/Imgs/S1Carrossel/bannerSite4.png",
+  },
+  {
+    img: "/Assets/Imgs/S1Carrossel/bannerSite5.png",
   },
 ];
 
 export default function S1Carrossel() {
   return (
     <Carousel
-      className="flex flex-col justify-center mx-32 my-20"
+      className="flex flex-col justify-center mx-72 my-20"
       // Ícone para avançar
       NextIcon={<ArrowForwardIosIcon />}
       // Ícone para voltar
@@ -30,11 +36,11 @@ export default function S1Carrossel() {
       navButtonsAlwaysVisible={false}
     >
       {items.map((item, i) => (
-        <Paper key={i}>
+        <Paper key={i} className="flex justify-center">
+
           <img
             src={item.img}
             alt="Banner"
-            style={{ width: "100%", height: "auto" }}
           />
         </Paper>
       ))}
