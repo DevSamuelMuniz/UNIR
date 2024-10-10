@@ -13,15 +13,39 @@ import FooterComponent from "@/Components/FooterComponent/FooterComponent";
 export default function Home() {
   return (
     <main className="flex flex-col gap-4">
-      <HeaderComponent />
-      <S1Carrossel />
-      <S12Parceiros />
-      <S2Sobre />
-      <S3Grafico />
-      <S4NossosServicos />
-      <S5Trabalhos />
-      <S6Contatos />
-      <S7Socios />
+      <section className="mb-10">
+        <HeaderComponent />
+      </section>
+
+      <section id="inicio">
+        <S1Carrossel />
+        <S12Parceiros />
+      </section>
+
+      <section id="sobre">
+        <S2Sobre />
+      </section>
+
+      <section>
+        <S3Grafico />
+      </section>
+
+      <section id="servicos">
+        <S4NossosServicos />
+      </section>
+
+      <section>
+        <S5Trabalhos />
+      </section>
+
+      <section id="contatos">
+        <S6Contatos />
+      </section>
+
+      <section>
+        <S7Socios />
+      </section>
+
       <FooterComponent />
     </main>
   );

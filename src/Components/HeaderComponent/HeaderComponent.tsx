@@ -1,6 +1,19 @@
+"use client"
+
 export default function HeaderComponent() {
+
+  const scrollToSection = (id: any) => {
+    const section = document.querySelector(id);
+    const offset = 200; 
+    const sectionPosition = section.offsetTop - offset;
+    window.scrollTo({
+      top: sectionPosition,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <main className="flex justify-between align-middle items-center p-4 px-8 shadow-md">
+    <main className="fixed top-0 left-0 w-full z-50 flex justify-between align-middle items-center p-4 px-8 shadow-md bg-white">
       <img
         className="w-24"
         src="/Assets/Imgs/Header/logoSemNome.png"
@@ -9,34 +22,34 @@ export default function HeaderComponent() {
 
       <ul className="flex justify-center items-center gap-20 text-[#0C2548] font-semibold">
         <li className="group relative">
-          <a className="hover:no-underline" href="">
+          <button className="hover:no-underline" onClick={() => scrollToSection("#inicio")}>
             Início
-          </a>
+          </button>
           <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#0C2548] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
         </li>
         <li className="group relative">
-          <a className="hover:no-underline" href="">
+          <button className="hover:no-underline" onClick={() => scrollToSection("#sobre")}>
             Sobre nós
-          </a>
+          </button>
           <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#0C2548] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
         </li>
         <li className="group relative">
-          <a className="hover:no-underline" href="">
+          <button className="hover:no-underline" onClick={() => scrollToSection("#servicos")}>
             Serviços
-          </a>
+          </button>
           <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#0C2548] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
         </li>
         <li className="group relative">
-          <a className="hover:no-underline" href="">
+          <button className="hover:no-underline" onClick={() => scrollToSection("#contatos")}>
             Contatos
-          </a>
+          </button>
           <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#0C2548] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
         </li>
       </ul>
 
       <a
-        className="p-3 border-2 rounded-sm  border-[#15407D] text-[#0C2548] font-semibold hover:bg-[#15407D] hover:text-white transition-colors"
-        href=""
+        className="p-3 border-2 rounded-sm border-[#15407D] text-[#0C2548] font-semibold hover:bg-[#15407D] hover:text-white transition-colors"
+        href="#contatos"
       >
         TRABALHE CONOSCO
       </a>

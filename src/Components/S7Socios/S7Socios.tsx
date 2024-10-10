@@ -1,7 +1,7 @@
 export default function S7Socios() {
   return (
-    <main className="flex items-center justify-evenly p-10">
-      <div className="flex flex-col justify-center items-center gap-2">
+    <main className="flex items-center justify-evenly p-16 mb-6">
+      <div className="flex flex-col items-center justify-between h-96 gap-2">
         <img className="w-52" src="/Assets/Imgs/S7Socios/john.png" alt="Logo" />
         <h1 className="text-xl font-bold text-center">John Alencar</h1>
 
@@ -11,7 +11,7 @@ export default function S7Socios() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-2">
+      <div className="flex flex-col justify-between h-96 items-center gap-2">
         <img
           className="w-52"
           src="/Assets/Imgs/S7Socios/samuel.png"
@@ -26,7 +26,7 @@ export default function S7Socios() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-2">
+      <div className="flex flex-col justify-between h-96 items-center gap-2">
         <img
           className="w-52"
           src="/Assets/Imgs/S7Socios/eudes.png"
@@ -35,7 +35,7 @@ export default function S7Socios() {
         <h1 className="text-xl font-bold text-center">Eudes Jordão</h1>
 
         <p className="w-64 text-sm">
-          Desenvolvedor Full Stack Angular | Java | TypeScript
+          Desenvolvedor Full Stack Angular | React | Java | TypeScript
         </p>
       </div>
     </main>
