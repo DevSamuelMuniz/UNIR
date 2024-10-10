@@ -68,7 +68,7 @@ export default function S3Grafico() {
           <h2 className="text-2xl text-[#15407D] font-bold">REDUZA SEU TRABALHO!</h2>
         </span>
 
-        <p className="text-3xl text-[#15407D] font-bold">COM SOLUÇÕES INTELIGÊNTES</p>
+        <p className="text-3xl text-[#15407D] font-bold">COM NOSSAS SOLUÇÕES INOVADORAS</p>
       </div>
     </main>
   );
