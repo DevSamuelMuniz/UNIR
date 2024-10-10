@@ -22,14 +22,14 @@ const cards = [
   
 ]
 
-export default function S5Branco() {
+export default function S5Trabalhos() {
   return (
-    <main className="flex flex-col gap-4 items-center justify-center pb-10 h-[60vh] ">
+    <main className="flex flex-col items-center justify-center my-24">
         <h1 className="text-5xl font-bold pb-[4rem] text-[#15407D]">
           Nossos Trabalhos!
         </h1>
 
-        <div className="flex w-[100vw] justify-around">
+        <div className="flex w-full justify-around">
           {cards.map((cards, i) =>(
             <div key={i} className="border border-black">
               <img className="w-[18rem]" src={cards.img}/>
