@@ -7,17 +7,17 @@ const cards = [
   {
     img: "/Assets/Imgs/S5Branco/MaryConfeccoes.png",
     name: "Mary Confecções",
-    classificacao: "Sistema e WebSite"
+    classificacao: "Sistema"
   },
   {
     img: "/Assets/Imgs/S5Branco/Rayssa.png",
     name: "Rayssa Joias",
-    classificacao: "Sistema e WebSite"
+    classificacao: "WebSite"
   },
   {
     img: "/Assets/Imgs/S5Branco/Samuel.png",
     name: "Sammu Solutions",
-    classificacao: "Sistema e WebSite"
+    classificacao: "WebSite"
   },
   
 ]

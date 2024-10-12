@@ -6,15 +6,16 @@ export default function S6Contatos() {
       </div>
 
       <div className="flex flex-col w-1/3 gap-10 h-full">
-        <h1 className="text-3xl font-bold text-white ">CONTATOS</h1>
+        <h1 className="text-3xl font-bold text-white ">TRABALHE CONOSCO</h1>
         <p className="text-white text-lg font-sem">
-          Na Unir, somos três sócios—Eudes Jordão, John Alencar e Samuel
-          Muniz—unidos por um desejo em comum: transformar a vida das pessoas e
-          suas realidades por meio de soluções tecnológicas inovadoras. Com base
-          na Bíblia Cristã, nossa ética e valores colocam Jesus no centro de
-          todos os nossos sonhos e projetos.
+          Se sua empresa busca soluções de software sob medida, estamos prontos para ajudar! 
+          Trabalhe conosco e eleve seus ganhos com projetos inovadores e eficientes, 
+          desenvolvidos por uma equipe de desenvolvedores especializados. 
+          Não perca a chance de transformar suas ideias em resultados reais. 
+          Junte-se a nós e veja a diferença que podemos fazer para o seu negócio!
         </p>
-<button className="border-2 border-[#4C81CD] bg-white text-[#0C2548] text-lg font-semibold p-2 hover:text-white hover:bg-[#4C81CD] transition-colors" >          SAIBA MAIS
+        <button className="border-2 border-[#4C81CD] bg-white text-[#0C2548] text-lg font-semibold p-2 hover:text-white hover:bg-[#4C81CD] transition-colors" > 
+          TRABALHE CONOSCO
         </button>
       </div>
     </main>
