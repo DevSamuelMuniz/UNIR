@@ -34,6 +34,7 @@ const data = {
       backgroundColor: ["#288226", "#CE2A2A"],
       borderColor: ["#288226", "#CE2A2A"],
       borderWidth: 1,
+      borderRadius: 10,
     },
   ],
 };
