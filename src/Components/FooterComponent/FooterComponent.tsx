@@ -4,26 +4,41 @@ import EmailIcon from "@mui/icons-material/Email";
 
 export default function FooterComponent() {
   return (
-    <main className="flex flex-col shadow-none">
-      <div className="bg-[#15407D] flex flex-col lg:flex-row justify-evenly items-center p-6 lg:p-10 gap-4 lg:gap-0">
-        <div className="text-white flex items-center">
+    <main className="flex flex-col shadow-none relative"> {/* Mantém o Footer como ponto de referência */}
+      {/* Segunda div (Rodapé) */}
+      <div className="bg-[#15407D] flex flex-col lg:flex-row flex-wrap justify-evenly items-center p-4 lg:p-10 gap-4 lg:gap-0 relative">
+
+        {/* Div com cor FAFAFA, imagem e texto, visível apenas em telas grandes */}
+        <div className="hidden lg:flex bg-[#FAFAFA] justify-between items-center p-4 rounded-lg shadow-md mb-4 max-w-5xl mx-auto absolute -top-16 left-0 right-0 z-10">
+          <img 
+            src='/assets/imgs/Footer/logoSemFundo.png' 
+            alt="Logo" 
+            className="h-12 w-auto" 
+          /> 
+          <p className="text-[#15407D] text-left p-4" style={{ fontSize: '14px'}}>
+            Na Unir, somos três sócios—Eudes Jordão, John Alencar e Samuel Muniz—unidos por um desejo em comum: transformar a vida das pessoas e suas realidades por meio de soluções tecnológicas inovadoras. Com base na Bíblia Cristã, nossa ética e valores colocam Jesus no centro de todos os nossos sonhos e projetos.
+          </p>
+        </div>
+
+        {/* Div com horário e e-mail, sempre visível */}
+        <div className="text-white flex flex-col lg:flex-row items-center text-center lg:text-left pt-10">
           <div>
-            <h1 className="text-lg lg:text-xl font-semibold flex items-center">
+            <h1 className="text-base lg:text-lg font-semibold flex items-center">
               <AccessTimeIcon className="mr-2" />
               Horário
             </h1>
             <p>Segunda à Sexta</p>
-            <p>08:00h às 18:00h</p>
+            <p>08:00 às 18:00</p>
           </div>
         </div>
 
-        <div className="text-white flex items-center">
+        <div className="text-white flex flex-col lg:flex-row items-center text-center lg:text-left">
           <div>
-            <h1 className="text-lg lg:text-xl font-semibold flex items-center">
+            <h1 className="text-base lg:text-lg font-semibold flex items-center">
               <EmailIcon className="mr-2" />
               E-mail
             </h1>
-            <p>contato.unityinnovation@gmail.com</p>
+            <p>unityinnovationrecife@gmail.com</p>
           </div>
         </div>
       </div>

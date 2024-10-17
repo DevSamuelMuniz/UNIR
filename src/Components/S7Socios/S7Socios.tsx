@@ -1,6 +1,6 @@
 export default function S7Socios() {
   return (
-    <main className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly p-6 lg:p-16 mb-6 gap-8 lg:gap-0">
+    <main className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly p-6 lg:p-16 mb-20 gap-8 lg:gap-0">
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
         <img
           className="w-40 lg:w-52"

@@ -19,9 +19,6 @@ const items = [
   {
     img: "/Assets/Imgs/S1Carrossel/bannerSite4.png",
   },
-  {
-    img: "/Assets/Imgs/S1Carrossel/bannerSite5.png",
-  },
 ];
 
 export default function S1Carrossel() {
