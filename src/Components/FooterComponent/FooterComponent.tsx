@@ -5,10 +5,10 @@ import EmailIcon from "@mui/icons-material/Email";
 export default function FooterComponent() {
   return (
     <main className="flex flex-col shadow-none">
-      <div className="bg-[#15407D] flex justify-evenly p-10">
+      <div className="bg-[#15407D] flex flex-col lg:flex-row justify-evenly items-center p-6 lg:p-10 gap-4 lg:gap-0">
         <div className="text-white flex items-center">
           <div>
-            <h1 className="text-xl font-semibold">
+            <h1 className="text-lg lg:text-xl font-semibold flex items-center">
               <AccessTimeIcon className="mr-2" />
               Horário
             </h1>
@@ -19,11 +19,11 @@ export default function FooterComponent() {
 
         <div className="text-white flex items-center">
           <div>
-            <h1 className="text-xl font-semibold">
+            <h1 className="text-lg lg:text-xl font-semibold flex items-center">
               <EmailIcon className="mr-2" />
               E-mail
             </h1>
-            <p>unityinnovationrecife@gmail.com</p>
+            <p>contato.unityinnovation@gmail.com</p>
           </div>
         </div>
       </div>

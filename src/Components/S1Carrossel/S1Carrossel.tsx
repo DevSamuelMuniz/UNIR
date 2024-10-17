@@ -27,20 +27,18 @@ const items = [
 export default function S1Carrossel() {
   return (
     <Carousel
-      className="flex flex-col justify-center mx-72 my-20"
-      // Ícone para avançar 
+      className="flex flex-col justify-center mt-16 md:my-20"
       NextIcon={<ArrowForwardIosIcon />}
-      // Ícone para voltar
       PrevIcon={<ArrowBackIosIcon />}
-      // Mostra as setas sempre
       navButtonsAlwaysVisible={false}
     >
       {items.map((item, i) => (
-        <Paper key={i} className="flex justify-center">
-
+        // Defina a elevação como 0 para remover sombras
+        <Paper key={i} elevation={0} className="flex justify-center">
           <img
             src={item.img}
             alt="Banner"
+            className="w-4/5 max-w-full h-auto"
           />
         </Paper>
       ))}

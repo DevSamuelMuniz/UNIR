@@ -20,7 +20,7 @@ export default function HeaderComponent() {
         alt="Logo"
       />
 
-      <ul className="flex justify-center items-center gap-20 text-[#0C2548] font-semibold">
+      <ul className="justify-center items-center gap-10 customSmall:gap-20 md:gap-8 lg:gap-20 customPhone:flex hidden text-[#0C2548] font-semibold">
         <li className="group relative">
           <button className="hover:no-underline" onClick={() => scrollToSection("#inicio")}>
             Início
@@ -48,7 +48,7 @@ export default function HeaderComponent() {
       </ul>
 
       <a
-        className="p-3 border-2 rounded-sm border-[#15407D] text-[#0C2548] font-semibold hover:bg-[#15407D] hover:text-white transition-colors"
+        className="lg:p-3 text-sm p-2 md:flex hidden border-2 rounded-sm border-[#15407D] text-[#0C2548] font-semibold hover:bg-[#15407D] hover:text-white transition-colors"
         href="#contatos"
       >
         TRABALHE CONOSCO
