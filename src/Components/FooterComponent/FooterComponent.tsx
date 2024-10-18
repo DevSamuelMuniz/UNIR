@@ -33,7 +33,7 @@ export default function FooterComponent() {
         </div>
 
         <div className="text-white flex flex-col lg:flex-row items-center text-center lg:text-left">
-          <div>
+          <div className="flex flex-col items-center lg:items-start w-full">
             <h1 className="text-base lg:text-lg font-semibold flex items-center">
               <EmailIcon className="mr-2" />
               E-mail
