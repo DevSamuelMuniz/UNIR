@@ -35,7 +35,9 @@ export default function HeaderComponent() {
 
   return (
     <main className="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-4 px-8 shadow-md bg-white">
-      <img className="w-24" src="/Assets/Imgs/Header/logoSemNome.png" alt="Logo" />
+      <a href="#" onClick={() => scrollToSection("#inicio")}>
+        <img className="w-24" src="/Assets/Imgs/Header/logoSemNome.png" alt="Logo" />
+      </a>
 
       {/* Menu para telas maiores */}
       <ul className="justify-center items-center gap-10 customSmall:gap-20 md:gap-8 lg:gap-20 customPhone:flex hidden text-[#0C2548] font-semibold">
@@ -69,17 +71,46 @@ export default function HeaderComponent() {
       </IconButton>
 
       <Drawer anchor="right" open={isDrawerOpen} onClose={toggleDrawer(false)}>
-        <List className="w-64 bg-white h-full">
+
+        <div className="flex justify-center items-center py-2"> {/* Centralizando a imagem */}
+          <a href="#" onClick={() => scrollToSection("#inicio")}>
+            <img
+              className="w-24"
+              src="/Assets/Imgs/Header/logoSemNome.png"
+              alt="Logo"
+            />
+          </a>
+        </div>
+
+        <List className="w-64 bg-white h-full flex flex-col items-end">
           {menuItems.map((item) => (
-            <ListItem button key={item.id} onClick={() => scrollToSection(item.id)}>
+            <ListItem button  
+            className="p-2 border-2 rounded-sm border-[#15407D] text-[#0C2548] font-semibold hover:bg-[#15407D] hover:text-white transition-colors"
+            key={item.id} 
+            onClick={() => {
+              scrollToSection(item.id);
+              setIsDrawerOpen(false); //fechar o menu burger após clicar em uma opção
+            }}>
               <ListItemText primary={item.label} />
             </ListItem>
           ))}
-          <ListItem button onClick={() => scrollToSection("#contatos")}>
-            <ListItemText primary="TRABALHE CONOSCO" />
+
+          <div className="flex-grow"></div>
+
+          {/*TRABALHE CONOSCO*/}
+          <ListItem 
+            className="p-2 border-2 rounded-sm border-[#15407D] text-[#0C2548] font-semibold hover:bg-[#15407D] hover:text-white transition-colors mt-auto"
+            style={{ position: "absolute", bottom: "16px", width: "90%", margin: "0 5%" }}
+            onClick={() => {
+              scrollToSection("#contatos");
+              setIsDrawerOpen(false); //fechar o menu burger após clicar em uma opção
+            }}>
+            <ListItemText primary="TRABALHE CONOSCO" className="text-center" />
           </ListItem>
         </List>
       </Drawer>
+
+
     </main>
   );
 }
