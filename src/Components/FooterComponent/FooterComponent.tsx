@@ -22,7 +22,7 @@ export default function FooterComponent() {
 
         {/* Div com horário e e-mail, sempre visível */}
         <div className="text-white flex flex-col lg:flex-row items-center text-center lg:text-left pt-10">
-          <div>
+          <div className="flex flex-col items-center">
             <h1 className="text-base lg:text-lg font-semibold flex items-center">
               <AccessTimeIcon className="mr-2" />
               Horário

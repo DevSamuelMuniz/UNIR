@@ -1,21 +1,21 @@
 const cards = [
   {
-    img: "/Assets/Imgs/S5Branco/GB.png",
+    img: "/Assets/Imgs/S5NossosTrabalhos/GB.png",
     name: "Barbearia GB",
     classificacao: "Sistema e WebSite",
   },
   {
-    img: "/Assets/Imgs/S5Branco/MaryConfeccoes.png",
+    img: "/Assets/Imgs/S5NossosTrabalhos/MaryConfeccoes.png",
     name: "Mary Confecções",
     classificacao: "Sistema",
   },
   {
-    img: "/Assets/Imgs/S5Branco/Rayssa.png",
-    name: "Rayssa Joias",
+    img: "/Assets/Imgs/S5NossosTrabalhos/Rayssa.png",
+    name: "Fisioterapeuta Rayssa",
     classificacao: "WebSite",
   },
   {
-    img: "/Assets/Imgs/S5Branco/Samuel.png",
+    img: "/Assets/Imgs/S5NossosTrabalhos/Samuel.png",
     name: "Sammu Solutions",
     classificacao: "WebSite",
   },
@@ -25,7 +25,7 @@ export default function S5Trabalhos() {
   return (
     <main className="flex flex-col items-center justify-center my-24 px-4">
       <div className="w-full lg:w-1/2 flex justify-center">
-        <h1 className="text-5xl font-bold pb-[4rem] text-[#15407D]">
+        <h1 className="text-5xl font-bold pb-[4rem] text-[#15407D] text-center">
           Nossos Trabalhos!
         </h1>
       </div>

@@ -8,10 +8,9 @@ export default function S12Parceiros() {
 
       <div className="flex justify-around w-full">
         <img src="/Assets/Imgs/S1.2Parceiros/MaryConfeccoes.png" alt="" />
+        <img src="/Assets/Imgs/S1.2Parceiros/RayssaFisio.png" alt="" />
         <img src="/Assets/Imgs/S1.2Parceiros/Sammu.png" alt="" />
-        <img src="/Assets/Imgs/S1.2Parceiros/Logo-3.png" alt="" />
-        <img src="/Assets/Imgs/S1.2Parceiros/Logo-4.png" alt="" />
-        <img src="/Assets/Imgs/S1.2Parceiros/Logo-5.png" alt="" />
+        <img src="/Assets/Imgs/S1.2Parceiros/RayssaJoias.png" alt="" />
       </div>
     </main>
   );
