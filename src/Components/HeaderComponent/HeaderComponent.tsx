@@ -48,7 +48,8 @@ export default function HeaderComponent() {
 
       <a
         className="lg:p-3 text-sm p-2 md:flex hidden border-2 rounded-sm border-[#15407D] text-[#0C2548] font-semibold hover:bg-[#15407D] hover:text-white transition-colors"
-        href="#contatos"
+        href="https://wa.me/5581984639299?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20sua%20empresa!"
+        target="_blank"
       >
         TRABALHE CONOSCO
       </a>

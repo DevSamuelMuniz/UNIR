@@ -2,11 +2,10 @@ export default function S2Sobre() {
   return (
     <main className="flex flex-col lg:flex-row gap-4 items-center justify-center bg-[#15407D] p-6 lg:p-10">
       <div className="w-full lg:w-1/2 flex justify-center">
-      <img
+        <img
           src="/Assets/Imgs/S2Sobre/bannerSobre.png"
           alt="Banner"
           className="w-full h-auto max-w-xl"
-
         />
       </div>
 
@@ -19,9 +18,13 @@ export default function S2Sobre() {
           Bíblia Cristã, nossa ética e valores colocam Jesus no centro de todos
           os nossos sonhos e projetos.
         </p>
-        <button className="border-2 border-[#4C81CD] bg-white text-[#0C2548] text-base lg:text-lg font-semibold p-2 hover:text-white hover:bg-[#4C81CD] transition-colors">
+        <a
+          className="border-2 border-[#4C81CD] bg-white text-[#0C2548] text-base lg:text-lg font-semibold p-2 hover:text-white hover:bg-[#4C81CD] transition-colors text-center"
+          href="https://www.instagram.com/unityinnovation/"
+          target="_blank"
+        >
           SAIBA MAIS
-        </button>
+        </a>
       </div>
     </main>
   );

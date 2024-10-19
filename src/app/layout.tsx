@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "UNIR - Unity of Innovation in Recife",
-  description: "Unity of Innovation in Recife",
+  title: "Unity of Innovation in Recife",
+  description: "UNIR - Unity of Innovation in Recife",
 };
 
 export default function RootLayout({
