@@ -6,22 +6,25 @@ import MenuIcon from "@mui/icons-material/Menu";
 export default function HeaderComponent() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
-  const scrollToSection = (id: any) => {
+  const scrollToSection = (id: string) => {
     const section = document.querySelector(id);
-    const offset = 200;
-    const sectionPosition = section.offsetTop - offset;
-    window.scrollTo({
-      top: sectionPosition,
-      behavior: "smooth",
-    });
+    if (section) {
+      const offset = 200;
+      const sectionPosition = (section as HTMLElement).offsetTop - offset;
+      window.scrollTo({
+        top: sectionPosition,
+        behavior: "smooth",
+      });
+    }
   };
-
-  const toggleDrawer = (open: boolean) => (event: any) => {
-    if (event.type === "keydown" && (event.key === "Tab" || event.key === "Shift")) {
+  
+  const toggleDrawer = (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
+    if (event.type === "keydown" && (event as React.KeyboardEvent).key === "Tab" || (event as React.KeyboardEvent).key === "Shift") {
       return;
     }
     setIsDrawerOpen(open);
   };
+  
 
   const menuItems = [
     { label: "Início", id: "#inicio" },
