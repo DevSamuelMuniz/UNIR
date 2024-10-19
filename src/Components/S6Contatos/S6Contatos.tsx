@@ -9,7 +9,7 @@ export default function S6Contatos() {
         />
       </div>
 
-      <div className="flex flex-col w-full gap-8 lg:gap-10 text-center lg:text-left">
+      <div className="flex flex-col w-full lg:w-1/3 gap-6 lg:gap-10 h-full text-center lg:text-left">
         <h1 className="text-2xl lg:text-3xl font-bold text-white">TRABALHE CONOSCO</h1>
         <p className="text-white text-base lg:text-lg font-normal">
           Se sua empresa busca soluções de software sob medida, estamos prontos para ajudar!
