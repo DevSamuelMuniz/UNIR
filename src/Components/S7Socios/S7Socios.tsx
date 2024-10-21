@@ -1,11 +1,17 @@
+import Image from "next/image";
+
 export default function S7Socios() {
   return (
     <main className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly p-6 lg:p-16 mb-20 gap-8 lg:gap-0">
+      
+      {/* Card John Alencar */}
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
-        <img
+        <Image
           className="w-40 lg:w-52"
           src="/Assets/Imgs/S7Socios/john.png"
-          alt="John Alencar"
+          alt="Foto de John Alencar, Full Stack Developer & Data Analyst"
+          width={200} 
+          height={200}
         />
         <h1 className="text-lg lg:text-xl font-bold text-center">
           John Alencar
@@ -16,11 +22,14 @@ export default function S7Socios() {
         </p>
       </div>
 
+      {/* Card Samuel Muniz */}
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
-        <img
+        <Image
           className="w-40 lg:w-52"
           src="/Assets/Imgs/S7Socios/samuel.png"
-          alt="Samuel Muniz"
+          alt="Foto de Samuel Muniz, Systems analyst and developer"
+          width={200} 
+          height={200}
         />
         <h1 className="text-lg lg:text-xl font-bold text-center">
           Samuel Muniz
@@ -32,11 +41,14 @@ export default function S7Socios() {
         </p>
       </div>
 
+      {/* Card Eudes Jordão */}
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
-        <img
+        <Image
           className="w-40 lg:w-52"
           src="/Assets/Imgs/S7Socios/eudes.png"
-          alt="Eudes Jordão"
+          alt="Foto de Eudes Jordão, Desenvolvedor Full Stack"
+          width={200} 
+          height={200}
         />
         <h1 className="text-lg lg:text-xl font-bold text-center">
           Eudes Jordão
@@ -45,6 +57,7 @@ export default function S7Socios() {
           Desenvolvedor Full Stack Angular | React | Java | TypeScript
         </p>
       </div>
+
     </main>
   );
 }

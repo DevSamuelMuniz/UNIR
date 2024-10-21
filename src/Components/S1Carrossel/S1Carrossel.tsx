@@ -5,6 +5,7 @@ import Carousel from "react-material-ui-carousel";
 import { Paper } from "@mui/material";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import Image from "next/image";
 
 const items = [
   {
@@ -32,9 +33,11 @@ export default function S1Carrossel() {
       {items.map((item, i) => (
         // Defina a elevação como 0 para remover sombras
         <Paper key={i} elevation={0} className="flex justify-center">
-          <img
+          <Image
             src={item.img}
-            alt="Banner"
+            alt={`Banner ${i + 1}`}
+            width={800} // Defina a largura adequada
+            height={450} // Defina a altura adequada
             className="w-4/5 max-w-full h-auto"
           />
         </Paper>

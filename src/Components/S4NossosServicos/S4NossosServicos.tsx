@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 
 export default function S4NossosServicos() {
   return (
@@ -17,9 +17,11 @@ export default function S4NossosServicos() {
         </div>
       </div>
       <div className="w-full lg:w-1/2 flex justify-center">
-        <img
+        <Image
           src="/Assets/Imgs/S4NossosServicos/bannerNossosServicos.png"
           alt="Banner Nossos Serviços"
+          width={800}  // Defina a largura real da imagem ou ajuste conforme necessário
+          height={600}  // Defina a altura real da imagem ou ajuste conforme necessário
           className="w-full h-auto max-w-xl"
         />
       </div>

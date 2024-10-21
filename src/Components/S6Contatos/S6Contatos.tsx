@@ -1,11 +1,15 @@
+import Image from "next/image";
+
 export default function S6Contatos() {
   return (
     <main className="flex flex-col lg:flex-row gap-8 lg:gap-4 items-center justify-center bg-[#15407D] p-6 lg:p-10">
       <div className="w-full lg:w-1/2 flex justify-center">
-        <img
+        <Image
           src="/Assets/Imgs/S6Contatos/bannerContatos.png"
-          alt="Banner Contatos"
+          alt="Imagem ilustrativa de contato para a seção 'Trabalhe Conosco'"
           className="w-full h-auto max-w-xl"
+          width={600}  // Ajuste conforme o tamanho real da imagem
+          height={400} // Ajuste conforme o tamanho real da imagem
         />
       </div>
 
@@ -25,7 +29,8 @@ export default function S6Contatos() {
           className="border-2 border-[#4C81CD] bg-white text-[#0C2548] text-base lg:text-lg font-semibold p-2 hover:text-white hover:bg-[#4C81CD] transition-colors text-center"
           href="https://wa.me/5581984639299?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20sua%20empresa!"
           target="_blank"
-          >
+          rel="noopener noreferrer"
+        >
           TRABALHE CONOSCO
         </a>
       </div>

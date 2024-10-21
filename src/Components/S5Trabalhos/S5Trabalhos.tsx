@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const cards = [
   {
     img: "/Assets/Imgs/S5NossosTrabalhos/GB.png",
@@ -36,10 +38,12 @@ export default function S5Trabalhos() {
             key={i}
             className="border border-black rounded-sm overflow-hidden shadow-lg"
           >
-            <img
+            <Image
               className="w-full h-48 object-cover"
               src={card.img}
               alt={card.name}
+              width={500}  // Definir valores reais para largura
+              height={300}  // e altura para melhor otimização
             />
             <div className="h-28 flex flex-col items-center justify-center bg-gray-600 text-white p-4">
               <p className="pb-2 font-semibold text-lg">{card.name}</p>
