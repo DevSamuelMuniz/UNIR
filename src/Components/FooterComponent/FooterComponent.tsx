@@ -21,7 +21,7 @@ export default function FooterComponent() {
         </div>
 
         {/* Div com horário e e-mail, sempre visível */}
-        <div className="text-white flex flex-col lg:flex-row items-center text-center lg:text-left pt-10">
+        <div className="text-white flex flex-col lg:flex-row items-center text-center lg:text-left pt-12">
           <div className="flex flex-col items-center">
             <h1 className="text-base lg:text-lg font-semibold flex items-center">
               <AccessTimeIcon className="mr-2" />
@@ -32,7 +32,7 @@ export default function FooterComponent() {
           </div>
         </div>
 
-        <div className="text-white flex flex-col lg:flex-row items-center text-center lg:text-left">
+        <div className="text-white flex flex-col lg:flex-row items-center text-center lg:text-left pt-10">
           <div className="flex flex-col items-center lg:items-start w-full">
             <h1 className="text-base lg:text-lg font-semibold flex items-center">
               <EmailIcon className="mr-2" />
