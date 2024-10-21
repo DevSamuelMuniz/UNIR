@@ -14,26 +14,26 @@ export default function S12Parceiros() {
         <Image
           src="/Assets/Imgs/S1.2Parceiros/MaryConfeccoes.png"
           alt="Logo Mary Confecções"
-          width={150}
-          height={100}
+          width={50}
+          height={1}
         />
         <Image
           src="/Assets/Imgs/S1.2Parceiros/RayssaFisio.png"
           alt="Logo Rayssa Fisio"
-          width={150}
-          height={100}
+          width={50}
+          height={1}
         />
         <Image
           src="/Assets/Imgs/S1.2Parceiros/Sammu.png"
           alt="Logo Sammu"
-          width={150}
-          height={100}
+          width={50}
+          height={1}
         />
         <Image
           src="/Assets/Imgs/S1.2Parceiros/RayssaJoias.png"
           alt="Logo Rayssa Joias"
-          width={150}
-          height={100}
+          width={50}
+          height={1}
         />
       </div>
     </main>
