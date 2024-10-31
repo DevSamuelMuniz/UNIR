@@ -54,7 +54,6 @@ export default function HeaderComponent() {
           alt="Logo"
           width={96}
           height={96}
-          className="w-full h-auto max-w-xl rounded-lg shadow-lg" // Aplicando classes do Tailwind
         />
       </a>
 
