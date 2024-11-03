@@ -3,7 +3,7 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
   },
-  reactStrictMode: false,
+  reactStrictMode: true,
 };
 
 export default nextConfig;
