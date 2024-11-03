@@ -50,7 +50,7 @@ export default function HeaderComponent() {
       <a href="#" onClick={() => scrollToSection("#inicio")}>
         <Image
           className="w-24"
-          src="/Assets/Imgs/logoSemNome.png"
+          src="https://nxboats.com.br/wp-content/uploads/2023/11/Lamborghini.jpg"
           alt="Logo"
           width={96}
           height={96}
