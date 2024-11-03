@@ -38,7 +38,7 @@ export default function S5Trabalhos() {
             key={i}
             className="border border-black rounded-sm overflow-hidden shadow-lg"
           >
-            <Image
+            <img
               className="w-full h-48 object-cover"
               src={card.img}
               alt={card.name}

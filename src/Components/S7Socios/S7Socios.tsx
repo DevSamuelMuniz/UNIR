@@ -6,7 +6,7 @@ export default function S7Socios() {
       
       {/* Card John Alencar */}
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
-        <Image
+        <img
           className="w-40 lg:w-52"
           src="/Assets/Imgs/john.png"
           alt="Foto de John Alencar, Full Stack Developer & Data Analyst"
@@ -24,7 +24,7 @@ export default function S7Socios() {
 
       {/* Card Samuel Muniz */}
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
-        <Image
+        <img
           className="w-40 lg:w-52"
           src="/Assets/Imgs/samuel.png"
           alt="Foto de Samuel Muniz, Systems analyst and developer"
@@ -43,7 +43,7 @@ export default function S7Socios() {
 
       {/* Card Eudes Jordão */}
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
-        <Image
+        <img
           className="w-40 lg:w-52"
           src="/Assets/Imgs/eudes.png"
           alt="Foto de Eudes Jordão, Desenvolvedor Full Stack"

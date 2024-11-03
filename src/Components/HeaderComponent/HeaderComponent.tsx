@@ -50,7 +50,7 @@ export default function HeaderComponent() {
       <a href="#" onClick={() => scrollToSection("#inicio")}>
         <img src="/Assets/Imgs/logoSemNome.png" alt="" />
 
-        <Image
+        <img
           className="w-24"
           src="/Assets/Imgs/logoSemNome.png"
           alt="Logo"
@@ -98,7 +98,7 @@ export default function HeaderComponent() {
           {" "}
           {/* Centralizando a imagem */}
           <a href="#" onClick={() => scrollToSection("#inicio")}>
-            <Image
+            <img
               className="w-24"
               src="/Assets/Imgs/logoSemNome.png"
               alt="Logo"

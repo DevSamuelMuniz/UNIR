@@ -32,7 +32,7 @@ export default function S1Carrossel() {
     >
       {items.map((item, i) => (
         <Paper key={i} elevation={0} className="flex justify-center">
-          <Image
+          <img
             src={item.img}
             alt={`Banner do Carrossel ${i + 1}`} // Descrição mais detalhada
             width={800} // Defina a largura adequada

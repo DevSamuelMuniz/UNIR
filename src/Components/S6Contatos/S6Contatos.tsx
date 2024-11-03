@@ -4,7 +4,7 @@ export default function S6Contatos() {
   return (
     <main className="flex flex-col lg:flex-row gap-8 lg:gap-4 items-center justify-center bg-[#15407D] p-6 lg:p-10">
       <div className="w-full lg:w-1/2 flex justify-center">
-        <Image
+        <img
           src="/Assets/Imgs/bannerContatos.png"
           alt="Imagem ilustrativa de contato para a seção 'Trabalhe Conosco'"
           className="w-full h-auto max-w-xl"

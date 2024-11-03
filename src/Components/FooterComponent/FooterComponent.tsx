@@ -13,7 +13,7 @@ export default function FooterComponent() {
       <div className="bg-[#15407D] flex flex-col lg:flex-row flex-wrap justify-evenly items-center p-4 lg:p-10 gap-4 lg:gap-0 relative">
         {/* Div com cor FAFAFA, imagem e texto, visível apenas em telas grandes */}
         <div className="hidden lg:flex bg-[#FAFAFA] justify-between items-center p-4 rounded-lg shadow-md mb-4 max-w-5xl mx-auto absolute -top-16 left-0 right-0 z-10">
-          <Image
+          <img
             src="/assets/imgs/logoSemFundo.png"
             alt="Logo"
             width={100} // Defina as dimensões

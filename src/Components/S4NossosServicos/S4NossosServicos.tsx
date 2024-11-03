@@ -17,7 +17,7 @@ export default function S4NossosServicos() {
         </div>
       </div>
       <div className="w-full lg:w-1/2 flex justify-center">
-        <Image
+        <img
           src="/Assets/Imgs/bannerNossosServicos.png"
           alt="Banner Nossos Serviços"
           width={800}  // Defina a largura real da imagem ou ajuste conforme necessário
