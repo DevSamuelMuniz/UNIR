@@ -48,9 +48,11 @@ export default function HeaderComponent() {
   return (
     <main className="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-4 px-8 shadow-md bg-white">
       <a href="#" onClick={() => scrollToSection("#inicio")}>
+        <img src="/Assets/Imgs/logoSemNome.png" alt="" />
+
         <Image
           className="w-24"
-          src="https://nxboats.com.br/wp-content/uploads/2023/11/Lamborghini.jpg"
+          src="/Assets/Imgs/logoSemNome.png"
           alt="Logo"
           width={96}
           height={96}
