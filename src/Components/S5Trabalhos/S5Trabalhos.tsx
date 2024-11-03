@@ -2,22 +2,22 @@
 
 const cards = [
   {
-    img: "/Assets/Imgs/GB.png",
+    img: "/Assets/Imgs/S5NossosTrabalhos/GB.png",
     name: "Barbearia GB",
     classificacao: "Sistema e WebSite",
   },
   {
-    img: "/Assets/Imgs/MaryConfeccoes.png",
+    img: "/Assets/Imgs/S5NossosTrabalhos/MaryConfeccoes.png",
     name: "Mary Confecções",
     classificacao: "Sistema",
   },
   {
-    img: "/Assets/Imgs/Rayssa.png",
+    img: "/Assets/Imgs/S5NossosTrabalhos/Rayssa.png",
     name: "Fisioterapeuta Rayssa",
     classificacao: "WebSite",
   },
   {
-    img: "/Assets/Imgs/Samuel.png",
+    img: "/Assets/Imgs/S5NossosTrabalhos/Sammu.png",
     name: "Sammu Solutions",
     classificacao: "WebSite",
   },

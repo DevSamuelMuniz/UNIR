@@ -9,16 +9,16 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const items = [
   {
-    img: "/Assets/Imgs/bannerSite1.png",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite1.png",
   },
   {
-    img: "/Assets/Imgs/bannerSite2.png",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite2.png",
   },
   {
-    img: "/Assets/Imgs/bannerSite3.png",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite3.png",
   },
   {
-    img: "/Assets/Imgs/bannerSite4.png",
+    img: "/Assets/Imgs/S1Carrossel/bannerSite4.png",
   },
 ];
 

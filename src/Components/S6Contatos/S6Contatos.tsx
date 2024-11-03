@@ -5,7 +5,7 @@ export default function S6Contatos() {
     <main className="flex flex-col lg:flex-row gap-8 lg:gap-4 items-center justify-center bg-[#15407D] p-6 lg:p-10">
       <div className="w-full lg:w-1/2 flex justify-center">
         <img
-          src="/Assets/Imgs/bannerContatos.png"
+          src="/Assets/Imgs/S6Contatos/bannerContatos.png"
           alt="Imagem ilustrativa de contato para a seção 'Trabalhe Conosco'"
           className="w-full h-auto max-w-xl"
           width={600}  // Ajuste conforme o tamanho real da imagem

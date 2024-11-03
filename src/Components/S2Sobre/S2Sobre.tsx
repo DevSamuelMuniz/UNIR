@@ -5,7 +5,7 @@ export default function S2Sobre() {
     <main className="flex flex-col lg:flex-row gap-4 items-center justify-center bg-[#15407D] p-6 lg:p-10">
       <div className="w-full lg:w-1/2 flex justify-center">
         <img
-          src="/Assets/Imgs/bannerSobre.png"
+          src="/Assets/Imgs/S2Sobre/bannerSobre.png"
           alt="Banner sobre nós"
           width={800} // Ajuste de acordo com o tamanho real da imagem
           height={600} // Ajuste de acordo com o tamanho real da imagem

@@ -50,7 +50,7 @@ export default function HeaderComponent() {
       <a href="#" onClick={() => scrollToSection("#inicio")}>
         <img
           className="w-24"
-          src="/Assets/Imgs/logoSemNome.png"
+          src="/Assets/Imgs/Header/logoSemFundo.png"
           alt="Logo"
           width={96}
           height={96}
