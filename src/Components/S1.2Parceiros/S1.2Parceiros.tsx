@@ -12,7 +12,7 @@ export default function S12Parceiros() {
 
       <div className="flex justify-around w-full">
         <Image
-          src="/Assets/Imgs/S1.2Parceiros/MaryConfeccoes.png"
+          src="../Assets/Imgs/S1.2Parceiros/MaryConfeccoes.png"
           alt="Logo Mary Confecções"
           width={50}
           height={1}
