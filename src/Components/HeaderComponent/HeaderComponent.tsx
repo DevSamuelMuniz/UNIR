@@ -9,8 +9,6 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
-
-
 export default function HeaderComponent() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -98,7 +96,7 @@ export default function HeaderComponent() {
           <a href="#" onClick={() => scrollToSection("#inicio")}>
             <img
               className="w-24"
-              src="/Assets/Imgs/logoSemNome.png"
+              src="/Assets/Imgs/Header/logoSemFundo.png"
               alt="Logo"
               width={96}
               height={96}
