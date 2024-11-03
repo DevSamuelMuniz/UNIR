@@ -50,7 +50,7 @@ export default function HeaderComponent() {
       <a href="#" onClick={() => scrollToSection("#inicio")}>
         <Image
           className="w-24"
-          src="/Assets/Imgs/Header/logoSemNome.png"
+          src="https://cdn.motor1.com/images/mgl/lEmjGg/s3/chevrolet-tracker-rs-2024.jpg"
           alt="Logo"
           width={96}
           height={96}
