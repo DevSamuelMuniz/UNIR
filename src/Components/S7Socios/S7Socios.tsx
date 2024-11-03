@@ -8,7 +8,7 @@ export default function S7Socios() {
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
         <Image
           className="w-40 lg:w-52"
-          src="/Assets/Imgs/S7Socios/john.png"
+          src="/Assets/Imgs/john.png"
           alt="Foto de John Alencar, Full Stack Developer & Data Analyst"
           width={200} 
           height={200}
@@ -26,7 +26,7 @@ export default function S7Socios() {
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
         <Image
           className="w-40 lg:w-52"
-          src="/Assets/Imgs/S7Socios/samuel.png"
+          src="/Assets/Imgs/samuel.png"
           alt="Foto de Samuel Muniz, Systems analyst and developer"
           width={200} 
           height={200}
@@ -45,7 +45,7 @@ export default function S7Socios() {
       <div className="flex flex-col items-center justify-between gap-4 lg:gap-2 h-auto lg:h-96">
         <Image
           className="w-40 lg:w-52"
-          src="/Assets/Imgs/S7Socios/eudes.png"
+          src="/Assets/Imgs/eudes.png"
           alt="Foto de Eudes Jordão, Desenvolvedor Full Stack"
           width={200} 
           height={200}

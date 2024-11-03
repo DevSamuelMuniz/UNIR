@@ -12,25 +12,25 @@ export default function S12Parceiros() {
 
       <div className="flex justify-around w-full">
         <Image
-          src="/Assets/Imgs/S1.2Parceiros/MaryConfeccoes.png"
+          src="/Assets/Imgs/MaryConfeccoes.png"
           alt="Logo Mary Confecções"
           width={50}
           height={1}
         />
         <Image
-          src="/Assets/Imgs/S1.2Parceiros/RayssaFisio.png"
+          src="/Assets/Imgs/RayssaFisio.png"
           alt="Logo Rayssa Fisio"
           width={50}
           height={1}
         />
         <Image
-          src="/Assets/Imgs/S1.2Parceiros/Sammu.png"
+          src="/Assets/Imgs/Sammu.png"
           alt="Logo Sammu"
           width={50}
           height={1}
         />
         <Image
-          src="/Assets/Imgs/S1.2Parceiros/RayssaJoias.png"
+          src="/Assets/Imgs/RayssaJoias.png"
           alt="Logo Rayssa Joias"
           width={50}
           height={1}

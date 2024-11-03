@@ -2,22 +2,22 @@ import Image from "next/image";
 
 const cards = [
   {
-    img: "/Assets/Imgs/S5NossosTrabalhos/GB.png",
+    img: "/Assets/Imgs/GB.png",
     name: "Barbearia GB",
     classificacao: "Sistema e WebSite",
   },
   {
-    img: "/Assets/Imgs/S5NossosTrabalhos/MaryConfeccoes.png",
+    img: "/Assets/Imgs/MaryConfeccoes.png",
     name: "Mary Confecções",
     classificacao: "Sistema",
   },
   {
-    img: "/Assets/Imgs/S5NossosTrabalhos/Rayssa.png",
+    img: "/Assets/Imgs/Rayssa.png",
     name: "Fisioterapeuta Rayssa",
     classificacao: "WebSite",
   },
   {
-    img: "/Assets/Imgs/S5NossosTrabalhos/Samuel.png",
+    img: "/Assets/Imgs/Samuel.png",
     name: "Sammu Solutions",
     classificacao: "WebSite",
   },
