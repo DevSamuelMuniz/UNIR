@@ -1,0 +1,12 @@
+[build]
+  publish = "out"  # ou o diretório que você está usando para publicar
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/assets/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
