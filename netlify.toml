@@ -1,5 +1,6 @@
 [build]
-  publish = "out"  # ou o diretório que você está usando para publicar
+  publish = "out"  # Certifique-se de que este é o diretório correto onde o Next.js exporta os arquivos estáticos.
+  command = "npm run build && npm run export"  # Comando para construir e exportar o projeto.
 
 [[redirects]]
   from = "/*"
