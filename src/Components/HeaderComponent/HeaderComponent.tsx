@@ -48,7 +48,7 @@ export default function HeaderComponent() {
   return (
     <main className="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-4 px-8 shadow-md bg-white">
       <a href="#" onClick={() => scrollToSection("#inicio")}>
-F        <img
+        <img
           className="w-24"
           src="/Assets/Imgs/logoSemNome.png"
           alt="Logo"
