@@ -12,6 +12,7 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.7",
+    "@netlify/plugin-nextjs": "^5.8.1",
     "chart.js": "^4.4.4",
     "next": "^14.2.15",
     "react": "^18",
