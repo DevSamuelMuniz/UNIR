@@ -2,7 +2,7 @@ import React from "react";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import EmailIcon from "@mui/icons-material/Email";
 
-import Image from "next/image";
+
 
 export default function FooterComponent() {
   return (

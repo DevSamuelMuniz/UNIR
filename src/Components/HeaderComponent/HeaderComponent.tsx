@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
-import Image from "next/image";
+
 
 export default function HeaderComponent() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);

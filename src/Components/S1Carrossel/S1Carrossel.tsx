@@ -5,7 +5,7 @@ import Carousel from "react-material-ui-carousel";
 import { Paper } from "@mui/material";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import Image from "next/image";
+
 
 const items = [
   {
